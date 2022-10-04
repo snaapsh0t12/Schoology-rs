@@ -1,3 +1,8 @@
+pub mod realms;
+pub mod macros;
+pub mod auth;
+
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
